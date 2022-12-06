@@ -62,11 +62,11 @@
     padding: 10px 20px;
   }
   .carouselborder{
-    height: 400px;
+    height: 50vh;
   }
   .carouselborder img{
     /* max-height: 129vh; */
-    height: 400px;
+    height: 50vh;
   }
   .carousel-control-next{
     padding-right: 30px;

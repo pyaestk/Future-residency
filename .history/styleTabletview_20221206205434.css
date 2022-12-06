@@ -61,12 +61,8 @@
     margin: 10px 10px 10px 30px;
     padding: 10px 20px;
   }
-  .carouselborder{
-    height: 400px;
-  }
   .carouselborder img{
-    /* max-height: 129vh; */
-    height: 400px;
+    max-height: 129vh;
   }
   .carousel-control-next{
     padding-right: 30px;
