@@ -369,8 +369,11 @@ nav{
   color: #b69e40;
   cursor: pointer;
   font-size: 20px;
+  transition: .3s;
 }
-
+.buttonhover:hover{
+  transform: scale(1.1);
+}
 .vid video{
   transition: .5s;
   width: 100%;
@@ -608,7 +611,6 @@ nav{
   object-position: center;
   border-radius: 5px;
 }
-/* swiperJs end */
 
 .saleitemcarousel{
   background-color: white;
