@@ -161,14 +161,9 @@
     text-align: center;
     margin: 10px;
   }
-  .aboutUscard-container{
-    padding-left: 0px!important;
-    margin: 0!important;
-  }
   .aboutUscard{
     width: 100%;
-    margin-top: 30px;
-    padding: 30px 10px 10px 30!important;
+    margin: 20px 0px 20px 10px!important;
   }
 
   /* contact us */

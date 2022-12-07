@@ -97,7 +97,7 @@
     order: 2;
   }
   .label{
-    margin: 10px!important;
+    margin: 0 10px;
     padding: 30px 0;
     border-radius: 5px 20px 20px 5px;
   }
@@ -145,14 +145,12 @@
   .ourhistory .label2{
     color: white;
     background-color: #1F2833;
-    margin-left: 10px;
-    border-radius: 5px 20px 20px 5px;
-    margin: 10px 10px;
     padding: 10px;
+    margin-right: 0!important;
   }
   .ourhistory .history{
     border-radius: 20px 5px 5px 20px;
-    margin: 30px 10px 19px 10px!important;
+    margin-left: 0!important;
   }
   .history{
     text-align: justify;
@@ -160,15 +158,6 @@
   .locationsession{
     text-align: center;
     margin: 10px;
-  }
-  .aboutUscard-container{
-    padding-left: 0px!important;
-    margin: 0!important;
-  }
-  .aboutUscard{
-    width: 100%;
-    margin-top: 30px;
-    padding: 30px 10px 10px 30!important;
   }
 
   /* contact us */
@@ -196,6 +185,7 @@
   .contactCard p{
     font-size: 12px;
   }
+
 
   /* sign in page */
   .login-form{
