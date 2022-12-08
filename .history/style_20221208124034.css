@@ -378,7 +378,16 @@ nav{
   object-position: center;
 }
 
-
+.content .subtext h4, .content .subtext span,
+ .formsession span, .formsession .searchSection {
+  display: block;
+  opacity: 0;
+  animation: reveal .5s forwards var(--delay);
+}
+@keyframes reveal{
+  from { translate: - 20px; }
+  to { translate: none; opacity: 1;}
+}
 
 /* property page */
 .salecard{
@@ -646,7 +655,7 @@ nav{
   font-size: 13px;
 }
 
-/* on scroll animation */
+/* on scroll */
 
 #reveal{
   position: relative;
@@ -679,18 +688,4 @@ nav{
 #reveal3.active3{
   transform: translateX(0);
   opacity: 1;
-}
-
-/* on load animation */
- .formsession span, .formsession .searchSection,
- .loginlayer h3, .loginlayer h6{
-  display: block;
-  opacity: 0;
-  animation: reveal .5s forwards var(--delay);
-}
-@keyframes reveal{
-  /* from { translate: - 20px; }
-  to { translate: none; opacity: 1;} */
-  from { transform: translateY(50px);}
-  to { transform: translateY(0); opacity: 1;}
 }

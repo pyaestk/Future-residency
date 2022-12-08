@@ -691,6 +691,4 @@ nav{
 @keyframes reveal{
   /* from { translate: - 20px; }
   to { translate: none; opacity: 1;} */
-  from { transform: translateY(50px);}
-  to { transform: translateY(0); opacity: 1;}
 }

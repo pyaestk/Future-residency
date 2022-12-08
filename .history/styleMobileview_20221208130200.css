@@ -49,10 +49,10 @@
 
   /* jumbotron */
   .jumbotron p{
-    font-size: 68px;
-    line-height: 75px;
+    font-size: 55px;
+    text-align: start;
   }
-  .subtext h4, .subtext span{
+  .subtext h4, .subtext{
     font-size: 13px;
   }
   .indexBackground{

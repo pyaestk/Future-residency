@@ -682,6 +682,7 @@ nav{
 }
 
 /* on load animation */
+.content .subtext h4, .content .subtext span,
  .formsession span, .formsession .searchSection,
  .loginlayer h3, .loginlayer h6{
   display: block;
@@ -689,8 +690,6 @@ nav{
   animation: reveal .5s forwards var(--delay);
 }
 @keyframes reveal{
-  /* from { translate: - 20px; }
-  to { translate: none; opacity: 1;} */
-  from { transform: translateY(50px);}
-  to { transform: translateY(0); opacity: 1;}
+  from { translate: - 20px; }
+  to { translate: none; opacity: 1;}
 }
