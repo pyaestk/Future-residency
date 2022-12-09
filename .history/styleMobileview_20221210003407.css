@@ -1,9 +1,10 @@
 
 /* mobile view */
 
-@media only screen and (min-width: 768px) and (max-width: 1100px) {
-   /* navigation */
-   .icon{
+@media only screen and (max-width: 767px) {
+
+  /* navigation */
+  .icon{
     display: block;
     cursor: pointer;
   }
@@ -20,14 +21,13 @@
     text-align: left;
     z-index: 10;
     transition: .7s;
-    overflow-y: scroll;
   }
   .navlinks ul li a{
     color: black;
   }
   .navlinks ul li{
     display: block;
-    margin: 30px 0;
+    margin: 50px 0;
     border-radius: 20px;
   }
   .navlinks ul{
@@ -44,15 +44,12 @@
     display: block;
     padding: 15px 20px;
     text-align: end;
-    position: sticky;
-    top: 0;
   }
   /* navigation end */
 
   /* jumbotron */
   .jumbotron p{
-    font-size: 30px;
-    line-height: 35px;
+    font-size: 55px;
   }
   .subtext h4, .subtext{
     font-size: 13px;
@@ -61,21 +58,13 @@
     background: linear-gradient(90deg, #EAEAEA 65%, #EAEAEA -30%);
   }
   .searchSection{
-    margin: 10px 10px 10px 30px;
-    padding: 10px 20px;
+    margin: 10px 10px;
   }
-  .carouselborder{
-    height: 400px;
-  }
-  .carouselborder img{
-    /* max-height: 129vh; */
-    height: 400px;
+  .customCarousel{
+    margin-left: 10px;
   }
   .carousel-control-next{
     padding-right: 30px;
-  }
-  .formsession span{
-    font-size: 13px;
   }
   /* jumbotron end */
 
@@ -85,8 +74,6 @@
     padding-bottom: 10px;
   }
   .label2{
-    background-color: white;
-    color: black;
     margin-left: 10px;
     border-radius: 10px;
     margin: 0 10px;
@@ -96,7 +83,6 @@
     font-size: 20px;
   }
   .sublabel{
-    color: black;
     font-size: 13px;
     padding-top: 10px;
   }
@@ -107,21 +93,19 @@
     padding: 0 10px;
   }
   /* second group */
+  .group2 .col-md-8{
+    order: 2;
+  }
   .label{
-    color: #1F2833;
-    background-color: white;
-    margin: 0 10px;
-    border-radius: 10px;
+    margin: 10px!important;
+    padding: 30px 0;
+    border-radius: 5px 20px 20px 5px;
   }
   .label h3{
     font-size: 20px;
     padding: 20px 10px;
   }
 
-  .housecard .salecard{
-    width: 230px;
-    padding: 0;
-  }
 
   .salecard h6{
     font-size: 12px;
@@ -129,7 +113,6 @@
   }
   .salecard li{
     font-size: 10px;
-    padding-left: 20px;
     list-style-type: circle;
   }
   .layer h5{
@@ -139,6 +122,15 @@
   .layer2{
     font-size: 10px;
     padding: 3px 3px;
+  }
+  .pic2-container .col-md-5{
+    order: 2;
+  }
+  .pic1-caption, .pic2-caption{
+    margin-top: 10px;
+  }
+  .vid-caption{
+    margin-top: 5px;
   }
 
   /* properties */
@@ -153,35 +145,41 @@
   .ourhistory .label2{
     color: white;
     background-color: #1F2833;
+    margin-left: 10px;
+    border-radius: 5px 20px 20px 5px;
+    margin: 10px 10px;
     padding: 10px;
-    margin-right: 0!important;
   }
   .ourhistory .history{
     border-radius: 20px 5px 5px 20px;
-    margin-left: 0!important;
+    margin: 30px 10px 19px 10px!important;
   }
   .history{
     text-align: justify;
-    font-size: 10px;
   }
   .locationsession{
     text-align: center;
     margin: 10px;
   }
-  .about-caption{
-    font-size: 13px;
+  .aboutUscard-container{
+    padding-left: 0px!important;
+    margin: 0!important;
   }
-  .conclusion h3{
-    font-size: 20px;
-  }
-  .conclusion p{
-    font-size: 13px;
-    text-align: justify;
+  .aboutUscard{
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 10px 10px 30!important;
   }
 
   /* contact us */
+  .contactsession .cards{
+    width: 320px;
+  }
+  .contactsession .card-body{
+    padding: 25px 5px;
+  }
   .contactsession h3{
-    font-size: 16px;
+    font-size: 15px;
   }
   .card-text{
     font-size: 14px;
@@ -198,16 +196,9 @@
   .contactCard p{
     font-size: 12px;
   }
-  .locationsession h4{
-    font-size: 15px;
-  }
-  .question span{
-    font-size: 13px;
-  }
 
   /* sign in page */
   .login-form{
-    margin-top: 25px;
     min-height: 60vh;
   }
   .login-video{
@@ -228,8 +219,19 @@
     margin-top: 25px;
     margin-bottom: 30px;
   }
-  .itemimage{
-    position: relative;
-    top: 25px;
+
+  /* footer */
+  .footer h2{
+    font-size: 19px;
   }
+  .footer h5{
+    font-size: 17px;
   }
+  .footer{
+    font-size: 12px;
+  }
+  .footer .copyright{
+    font-size: 12px;
+  }
+
+}

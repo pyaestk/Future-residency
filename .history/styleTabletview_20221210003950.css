@@ -20,6 +20,7 @@
     text-align: left;
     z-index: 10;
     transition: .7s;
+    -webkit-overflow-scrolling: touch;
     overflow-y: scroll;
   }
   .navlinks ul li a{
@@ -44,8 +45,6 @@
     display: block;
     padding: 15px 20px;
     text-align: end;
-    position: sticky;
-    top: 0;
   }
   /* navigation end */
 
