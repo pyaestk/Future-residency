@@ -139,6 +139,7 @@ nav{
   background-position: center;
 }
 .subtext{
+  font-weight: bold;
   font-size: 17px;
   text-align: justify;
   color: #3a3213;
@@ -174,7 +175,7 @@ nav{
 /* jumbotron content2 */
 .formsession span{
   color: #3a3213;
-  font-size: 17px;
+  font-weight: bold;
 }
 .form-area .searchbar{
   border-radius: 15px 0 0 15px;
