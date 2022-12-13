@@ -200,7 +200,7 @@ nav{
   border-radius: 20px;
   padding: 10px 30px;
   background-color: white;
-  font-size: 15px;
+  font-size: 13px;
 }
 .searchSection input::placeholder{
   font-size: 15px;
@@ -250,7 +250,6 @@ nav{
 }
 .customCarousel{
   padding-top: 13px;
-  padding-left: 0!important;
 }
 
 /* group1 */
