@@ -130,7 +130,7 @@ nav{
   font-size: 65px;
   line-height: 70px;
   letter-spacing: 1px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2px;
   object-fit: cover;
   -webkit-text-stroke-color: #000000;
   background: url(img/418614\ \(2\).jpg);

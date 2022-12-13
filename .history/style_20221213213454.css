@@ -130,7 +130,7 @@ nav{
   font-size: 65px;
   line-height: 70px;
   letter-spacing: 1px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .5px;
   object-fit: cover;
   -webkit-text-stroke-color: #000000;
   background: url(img/418614\ \(2\).jpg);
@@ -141,6 +141,7 @@ nav{
 .subtext{
   font-size: 17px;
   text-align: justify;
+  color: #3a3213;
   font-family: 'Cormorant Infant', serif;
 }
 .subtext h4{
