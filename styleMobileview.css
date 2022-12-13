@@ -52,12 +52,18 @@
   /* navigation end */
 
   /* jumbotron */
+
+
   .jumbotron p{
     font-size: 55px;
     text-align: start;
   }
-  .subtext h4, .subtext{
-    font-size: 13px;
+  .subtext h4{
+    font-size: 20px;
+    text-align: start!important;
+  }
+  .subtext{
+    font-size: 17px;
     text-align: start!important;
   }
   .indexBackground{
@@ -71,6 +77,15 @@
   }
   .carousel-control-next{
     padding-right: 30px;
+  }
+  .carouselborder img{
+    height: 50vh;
+  }
+  .carouselborder video{
+    height: 50vh;
+  }
+  .carouselborder{
+    height: 50vh;
   }
   /* jumbotron end */
 
