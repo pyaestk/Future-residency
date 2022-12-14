@@ -125,7 +125,7 @@ nav{
   line-height: 70px;
   -webkit-text-stroke-width: 1px;
   object-fit: cover;
-  -webkit-text-stroke-color: #000000;
+  -webkit-text-stroke-color: #00000000;
   background: url(img/418614\ \(2\).jpg);
   -webkit-background-clip: text;
   animation: animation 60s linear infinite;
