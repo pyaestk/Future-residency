@@ -538,8 +538,8 @@ nav{
   box-shadow: none;
 }
 .login-form input:required{
-  /* font-size: 12px; */
-  
+  font-size: 10px;
+
 }
 .login-video{
   min-height: 60vh;

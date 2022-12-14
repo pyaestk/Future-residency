@@ -537,10 +537,6 @@ nav{
 .login-form input:focus{
   box-shadow: none;
 }
-.login-form input:required{
-  /* font-size: 12px; */
-  
-}
 .login-video{
   min-height: 60vh;
   position: relative;
