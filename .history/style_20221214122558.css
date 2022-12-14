@@ -25,6 +25,9 @@ html,body{
   z-index: -1000;
 }
 
+
+
+
 /* navigation */
 
 nav{
@@ -123,7 +126,8 @@ nav{
   color: transparent;
   font-size: 65px;
   line-height: 70px;
-  -webkit-text-stroke-width: .5px;
+  letter-spacing: 1px;
+  -webkit-text-stroke-width: 1px;
   object-fit: cover;
   -webkit-text-stroke-color: #000000;
   background: url(img/418614\ \(2\).jpg);
@@ -176,7 +180,7 @@ nav{
 }
 .form-area button{
   color: white;
-  background-color: #b69e40;
+  background-color: #cccccc;
   width: 80px;
   height: 40px;
   border: none;
@@ -328,7 +332,6 @@ nav{
 }
 .label h3{
   font-size: 30px;
-  font-family: 'Abril Fatface', cursive;
 }
 
 .group2{
@@ -348,14 +351,13 @@ nav{
 }
 .label2 h3{
   font-size: 27px;
-  font-family: 'Abril Fatface', cursive;
 }
 .sublabel{
   padding-top: 20px;
   width: 90%;
   margin:auto;
   text-align: center;
-  font-size: 13px;
+  font-size: 17px;
 }
 .featuredcard{
   padding: 0 20px;
@@ -379,17 +381,16 @@ nav{
   width: 100%;
   text-align: center;
   border: 2px solid #b69e40;
-  font-size: 15px;
+  font-size: 17px;
 }
 .pic1-caption h3, .pic2-caption h3, .vid-caption h3{
   color: #3a3213;
-  font-family: 'Abril Fatface', cursive;
 }
 .pic1-caption h6, .pic2-caption h6, .vid-caption h6{
   padding-top: 15px;
   color: #b69e40;
   cursor: pointer;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 .vid video{
