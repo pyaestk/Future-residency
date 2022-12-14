@@ -43,7 +43,7 @@
 
   /* first group */
   .group1{
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
   }
   .label2{
@@ -65,6 +65,7 @@
   }
   /* second group */
   .label{
+    margin: 0 10px;
     border-radius: 10px;
   }
   .label h3{
@@ -105,7 +106,7 @@
 
   /* aboutUs */
   .ourhistory .label2{
-    padding: 10px;
+    /* padding: 10px; */
     margin-right: 0!important;
   }
   .ourhistory .history{

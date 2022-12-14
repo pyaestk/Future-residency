@@ -43,12 +43,12 @@
 
   /* first group */
   .group1{
-    padding-top: 30px;
+    padding-top: 10px;
     padding-bottom: 10px;
   }
   .label2{
     border-radius: 10px;
-    padding: 40px 15px 40px 15px;
+    /* padding: 40px 15px 40px 15px; */
   }
   .label2 h3{
     font-size: 20px;
@@ -65,6 +65,7 @@
   }
   /* second group */
   .label{
+    margin: 0 10px;
     border-radius: 10px;
   }
   .label h3{
