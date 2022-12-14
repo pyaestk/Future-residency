@@ -1,6 +1,5 @@
 /* google font */
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 /* background */
 html,body{
   overflow-x: clip;
@@ -137,8 +136,8 @@ nav{
   text-align: justify;
 }
 .subtext h4{
-  font-family: 'Dancing Script', cursive;
-  font-size: 25px;
+  /* font-family: 'Parisienne', cursive; */
+  font-size: 14px;
 }
 @keyframes animation{ 
   100%{
