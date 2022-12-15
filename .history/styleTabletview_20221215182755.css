@@ -14,8 +14,8 @@
     letter-spacing: 3px;
   }
   .subtext h4{
-    padding-top: 20px;
     font-size: 18px;
+    text-align: start;
   }
   .subtext{
     font-size: 13px;

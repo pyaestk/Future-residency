@@ -12,10 +12,11 @@
     font-size: 40px;
     line-height: 45px;
     letter-spacing: 3px;
+    text-align: start;
   }
   .subtext h4{
-    padding-top: 20px;
     font-size: 18px;
+    text-align: start;
   }
   .subtext{
     font-size: 13px;
