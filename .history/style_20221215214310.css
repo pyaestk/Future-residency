@@ -340,7 +340,10 @@ nav{
   color: rgb(0, 0, 0);
   border: 2px solid #b69e40;
 }
-
+.label2 h3{
+  font-size: 27px;
+  font-family: 'Abril Fatface', cursive;
+}
 .sublabel{
   width: 90%;
   margin:auto;
@@ -356,17 +359,16 @@ nav{
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
+
 }
+
 .infolayer img{
-  width: 200px;
+  width: 150px;
   position: relative;
 }
 .infolayer label{
-  font-size: 20px;
   position: absolute;
-  font-family: 'Abril Fatface', cursive;
-  /* font-family: 'Parisienne', cursive; */
 }
 
 /* homepage card */
@@ -414,7 +416,7 @@ nav{
 /* property page */
 .salecard{
   border-radius: 10px;
-  margin: 20px 0 20px;
+  margin: 20px 0 5px;
   cursor: pointer;
   transition: .3s;
 }
