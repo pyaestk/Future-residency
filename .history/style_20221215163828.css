@@ -4,7 +4,6 @@
 /* background */
 html,body{
   overflow-x: clip;
-  scroll-behavior: smooth;
 }
 
 .indexBackground{
@@ -377,7 +376,6 @@ nav{
 .pic1-caption h3, .pic2-caption h3, .vid-caption h3{
   color: #3a3213;
   font-family: 'Abril Fatface', cursive;
-  text-align: center;
 }
 .pic1-caption h6, .pic2-caption h6, .vid-caption h6{
   padding-top: 15px;
@@ -399,7 +397,7 @@ nav{
 /* property page */
 .salecard{
   border-radius: 10px;
-  margin: 20px 0 5px;
+  margin: 20px 0 8px;
   cursor: pointer;
   transition: .3s;
 }
@@ -453,9 +451,6 @@ nav{
 
 .salecard-body{
   padding: 8px 5px;
-}
-.salecard-body h5{
-  color: #9e872a;
 }
 .salecard-body h4{
   color: #9e872a;
@@ -553,7 +548,7 @@ nav{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 0 20px;
+  padding: 50px 20px;
 }
 .loginlayer h3{
   color: #b69e40;
@@ -707,7 +702,7 @@ nav{
 
 /* on load animation */
  .formsession span, .formsession .searchSection,
- .loginlayer h3, .loginlayer p{
+ .loginlayer h3, .loginlayer h6{
   display: block;
   opacity: 0;
   animation: reveal .5s forwards var(--delay);

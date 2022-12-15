@@ -186,7 +186,7 @@ nav{
   font-size: 14px;
 }
 .searchSection input::placeholder{
-  font-size: 14px;
+  /* font-size: 14px; */
 }
 .searchSection select{
   background-color: white;
@@ -456,9 +456,7 @@ nav{
 }
 .salecard-body h5{
   color: #9e872a;
-}
-.salecard-body h4{
-  color: #9e872a;
+  font-size: 15px;
 }
 .salecard ul li{
   font-size: 12px;
