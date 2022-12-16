@@ -170,15 +170,14 @@ nav{
 }
 .form-area button{
   color: white;
-  background-color: #b69e40;
+  /* background-color: #b69e40; */
   width: 70px;
   height: 40px;
   border: none;
   border-radius: 0 15px 15px 0;
   transition: 0.3s;
   text-decoration: none;
-  outline: .1rem solid #ffffff;
-  outline-offset: -4px;
+  border: 1px solid gray;
 }
 .form-area button:hover{
   background-color: #9e872a;
@@ -369,7 +368,7 @@ nav{
   font-size: 20px;
   position: absolute;
   font-family: 'Abril Fatface', cursive;
-  color: #504F5D;
+  /* font-family: 'Parisienne', cursive; */
 }
 
 /* homepage card */

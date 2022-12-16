@@ -164,6 +164,7 @@ nav{
 .form-area .searchbar{
   border-radius: 15px 0 0 15px;
   text-overflow: ellipsis;
+  border: 1px solid black;
 }
 .form-area .searchbar:focus{
   box-shadow: none;
@@ -369,7 +370,7 @@ nav{
   font-size: 20px;
   position: absolute;
   font-family: 'Abril Fatface', cursive;
-  color: #504F5D;
+  /* font-family: 'Parisienne', cursive; */
 }
 
 /* homepage card */

@@ -325,6 +325,7 @@ nav{
 }
 .label h3{
   font-size: 30px;
+  color: #b69e40;
   font-family: 'Abril Fatface', cursive;
 }
 
@@ -369,7 +370,7 @@ nav{
   font-size: 20px;
   position: absolute;
   font-family: 'Abril Fatface', cursive;
-  color: #504F5D;
+  /* font-family: 'Parisienne', cursive; */
 }
 
 /* homepage card */
