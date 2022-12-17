@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1 ">
@@ -21,12 +20,11 @@
 
     <!--swiper js-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
-
 </head>
-
 <body>
-
+    <!-- background -->
     <div class="background"></div>
+
     <!--navigation-->
     <nav class="shadow">
         <div class="logo-area">
@@ -52,9 +50,10 @@
             <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </div>
     </nav>
+    <!--navigation end-->
 
+    <!-- form -->
     <div class="joinPage">
-        
         <div class="row py-4">
             <div class="col-md-6">
                 <div class="login-form bg-white shadow d-flex flex-column justify-content-center">
@@ -132,58 +131,62 @@
             </div>
         </div>
     </div>
+    <!-- form end -->
 
     <!-- toast notification -->
     <div class="toast-container position-fixed bottom-0 end-0 p-3">
         <div id="liveToast" class="toast bg-light" role="alert" aria-live="assertive" aria-atomic="true">
-          <div class="toast-header">
+            <div class="toast-header">
             <strong class="me-auto"> <i class="fa-solid fa-circle-exclamation"></i> Technical Issue</strong>
             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
-          </div>
-          <div class="toast-body">
+            </div>
+            <div class="toast-body">
             Sorry, you can't register right now! There was a problem with the server. 
-          </div>
+            </div>
         </div>
     </div>
-  <!--footer-->
-  <div class="footer pt-5">
-    <div class="container text-center text-white">
-      <div class="row">
-        <div class="col-md-12 my-5 reveal3">
-          <h2><img src="img/FUTURE_ReSIDENCY-removebg-preview-modified.png" alt="logo" class="logo pb-2"><span>
-              FUTURE-RESIDENCY </span> Real Estate</h2>
+    <!-- toast notification end -->
+
+    <!--footer-->
+    <div class="footer pt-5">
+        <div class="container text-center text-white">
+        <div class="row">
+            <div class="col-md-12 my-5 reveal3">
+            <h2><img src="img/FUTURE_ReSIDENCY-removebg-preview-modified.png" alt="logo" class="logo pb-2"><span>
+                FUTURE-RESIDENCY </span> Real Estate</h2>
+            </div>
         </div>
-      </div>
-      <div class="row pb-5 gap-5 justify-content-md-center">
-        <div class="col col-md-3 reveal3">
-          </ul>
-          <h5>Our company</h5>
-          <div>about us</div>
-          <div>privacy policy</div>
-          <div>terms of service</div>
+        <div class="row pb-5 gap-5 justify-content-md-center">
+            <div class="col col-md-3 reveal3">
+            </ul>
+            <h5>Our company</h5>
+            <div>about us</div>
+            <div>privacy policy</div>
+            <div>terms of service</div>
+            </div>
+            <div class="col-md-auto reveal3">
+            <h5>Advertise with Us</h5>
+            <div>list a property</div>
+            <div>business solutions</div>
+            </div>
+            <div class="col col-md-3 reveal3">
+            <h5>Let us Help</h5>
+            <div>avoid scams</div>
+            <div>contact us</div>
+            <div>site map</div>
+            </div>
         </div>
-        <div class="col-md-auto reveal3">
-          <h5>Advertise with Us</h5>
-          <div>list a property</div>
-          <div>business solutions</div>
+        <hr>
+        <div class="row text-center pb-2">
+            <div class="col-md-12">
+            <span class="copyright reveal3">© 2022 Rent Group Inc. All rights reserved. All photos, videos, text and other content
+                are the property of Future-Residency Group Inc. APARTMENT GUIDE and the APARTMENT GUIDE Trade Dress
+                are registered trademarks of Future-Residency Inc. or its affiliates.</span>
+            </div>
         </div>
-        <div class="col col-md-3 reveal3">
-          <h5>Let us Help</h5>
-          <div>avoid scams</div>
-          <div>contact us</div>
-          <div>site map</div>
         </div>
-      </div>
-      <hr>
-      <div class="row text-center pb-2">
-        <div class="col-md-12">
-          <span class="copyright reveal3">© 2022 Rent Group Inc. All rights reserved. All photos, videos, text and other content
-            are the property of Future-Residency Group Inc. APARTMENT GUIDE and the APARTMENT GUIDE Trade Dress
-            are registered trademarks of Future-Residency Inc. or its affiliates.</span>
-        </div>
-      </div>
     </div>
-  </div>
+    <!--footer end-->
 
 
 
@@ -196,7 +199,8 @@
     <!--bootstrap-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
+        crossorigin="anonymous">
+    </script>
+    
 </body>
-
 </html>
