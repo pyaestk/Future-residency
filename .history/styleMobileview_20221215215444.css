@@ -158,7 +158,6 @@
   /* properties */
   .searchSection{
     font-size: 13px;
-    margin-left: 0;
   }
   .searchSection input::placeholder{
     font-size: 13px;

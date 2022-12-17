@@ -25,10 +25,10 @@
     padding: 10px 20px;
   }
   .carouselborder{
-    height: 450px;
+    height: 400px;
   }
   .carouselborder img,.carouselborder video{
-    height: 450px;
+    height: 400px;
   }
 
   .carousel-control-next{
