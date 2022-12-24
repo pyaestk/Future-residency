@@ -130,9 +130,8 @@ nav{
   text-align: justify;
 }
 .subtext h4{
-  font-size: 20px;
-  padding-bottom: 10px;
-  /* font-family: 'Parisienne', cursive; */
+  font-size: 25px;
+  font-family: 'Parisienne', cursive;
 }
 @keyframes animation{ 
   100%{
@@ -589,7 +588,7 @@ nav{
   height: 100%;
   border-radius: 30px 0 0 30px;
   border: 2px solid goldenrod;
-  filter: brightness(80%);
+  filter: brightness(80%^);
 }
 .form-check span{
   font-size: 14px;

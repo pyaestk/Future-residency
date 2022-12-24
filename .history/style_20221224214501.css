@@ -130,9 +130,8 @@ nav{
   text-align: justify;
 }
 .subtext h4{
-  font-size: 20px;
-  padding-bottom: 10px;
-  /* font-family: 'Parisienne', cursive; */
+  font-size: 25px;
+  font-family: 'Parisienne', cursive;
 }
 @keyframes animation{ 
   100%{
